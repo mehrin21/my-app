@@ -1,0 +1,26 @@
+.layout1-box {
+    width: 100%;
+    height: 330px;
+    top: 350px;
+    /* opacity: 0;  */
+    background-image: url('https://s3-alpha-sig.figma.com/img/53f3/e533/f37f4a258b3eea846bf145fb95b71dfd?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=H8rqNeqPoTeDpFHlOyEE2UJqLvZq6gtWf52Xb~vwwgRfG~hItJVpr-yfnGnYkaS8adUbhPjct8NqyktyIz-buDWeNxmxWa9shz3JMkzwjJqAbzw6cWhYsBLGwfEzb8rRsN9rGRZBGtMVDIqshsXRl7j~ol7F73jnXkG6FvvUGJlkgCaty2s~zMjwhZ~W68LkiY8yvYYdCsp~tzXumwoyf4F~MLCT6oILq7rR5KARvR9tiGPRbKtKnmpVdwHcUEijT3Q3RieWdXXSlXCo89CJfVepIfv5j8nFhRn3PBXvkuSbTJ~RxX29qe37TKMvFAvyafAbks-D7OOpsd0j6G5XDw__'); 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 11, 11);
+  }
+
+  .layout1-box1 {
+    width: 1000px;  
+    height: 250px; 
+    background-color: white; 
+    border: 1px solid #0796EF;
+    /* border-radius: 8px;  */
+}

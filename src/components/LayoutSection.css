@@ -1,0 +1,64 @@
+
+
+.layout-box {
+    width: 120%;
+    height: 85px;
+    top: 351px;
+    gap: 0px;
+    /* opacity: 0;  */
+    background-image: url('https://s3-alpha-sig.figma.com/img/0571/aff9/d875fd6fec8f3801ba095cc39be0e4b1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l3KGr3lN5o9ceBSHezw6P1vPgoisjIQFCMS9oGzoiVfOIr6MoipIjZ0-jDaiU2qCc5JV79mwGzUI-LhwajvxxI93sBBAKUQczUeaKtYvd6K-Tolj15W5OpDj-OPqtOUDLSQ~oc48zCFrnFMZ2m0-5q3-cn4RJGEN3AT4m4PpWDf0dZhhVd73Tu1VG6Uxsv3P8wdMDYACb9itG2xCXnWobfHxXQV37-~KqMmxQLc603BDuM0j2WLBefQ4kyFM-saBqtRuV4DDep0j3cQpnNF-dGuydiSXK49hxLzK44H21KNo5aWTmOqQ-tWxNeohSsfWj24Yq4NVhIZn3UscxJcGtg__'); 
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+  }
+  .layout-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    opacity: 0.5; 
+    z-index: 1;
+}
+
+.layout-box * {
+    position: relative;
+    z-index: 2; 
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.custom-button {
+    width: 150px;  
+    height: 50px;  
+    background-color: black !important;
+    color: white !important;
+    border: 0.5px solid #0796EF !important;
+    transition: all 0.3s ease;
+    font-size: 16px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none; 
+}
+
+/* Change color on hover */
+.custom-button:hover {
+    background-color: #0796EF !important;
+}
+
+  
+  
