@@ -20,7 +20,7 @@
   .layout1-box1 {
     width: 1000px;  
     height: 250px; 
-    background-color: white; 
+    /* background-color: white;  */
     border: 1px solid #0796EF;
-    /* border-radius: 8px;  */
+    
 }
